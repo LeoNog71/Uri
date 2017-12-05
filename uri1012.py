@@ -1,0 +1,10 @@
+a,b,c = input().split(" ")
+a = float(a)
+b= float(b)
+c = float(c)
+
+print("TRIANGULO: %.3f"%round((a*c)/2,3))
+print("CIRCULO: %.3f"%round((c**2)*3.14159,3))
+print("TRAPEZIO: %.3f"%round(,3))
+print("QUADRADO: %.3f"%round(,3))
+print("RETANGULO: %3.f"%round(,3))
